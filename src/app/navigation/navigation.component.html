@@ -1,0 +1,28 @@
+<div class="p-4 bg-orange-400 shadow">
+  <ul class="flex flex-row gap-20 justify-center">
+    <li class="font-bold text-xl">
+      <a
+        routerLink="/"
+        [routerLinkActiveOptions]="{ exact: true }"
+        routerLinkActive="text-blue-500"
+        >Dashboard</a
+      >
+    </li>
+    <li class="font-bold text-xl">
+      <a
+        routerLink="/customers"
+        [routerLinkActiveOptions]="{ exact: true }"
+        routerLinkActive="text-blue-500"
+        >List of Customers</a
+      >
+    </li>
+    <li class="font-bold text-xl">
+      <a
+        routerLink="/create"
+        [routerLinkActiveOptions]="{ exact: true }"
+        routerLinkActive="text-blue-500"
+        >Create a Customer</a
+      >
+    </li>
+  </ul>
+</div>

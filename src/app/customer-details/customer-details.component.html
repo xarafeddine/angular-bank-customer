@@ -1,0 +1,51 @@
+<app-create-customer
+  *ngIf="edite"
+  action="Update"
+  [customer]="customer"
+></app-create-customer>
+<div
+  *ngIf="customer && !edite"
+  class="relative flex flex-col items-center justify-center gap-6 rounded-lg bg-white shadow p-10"
+>
+  <img
+    class="h-40 w-40 rounded-full"
+    [src]="
+      customer.image ||
+      'https://cdn.pixabay.com/photo/2016/03/31/20/37/client-1295901_960_720.png'
+    "
+    [alt]="customer.firstName"
+  />
+
+  <h3 class="text-2xl text-center font-bold text-gray-900">
+    {{ customer.firstName }} {{ customer.lastName }}
+  </h3>
+
+  <button
+    (click)="edite = true"
+    class="border border-green-400 rounded-md shadow p-2 bg-green-400 hover:bg-green-500 text-green-900 w-20 m-auto mb-5 disabled:opacity-50"
+  >
+    Edite
+  </button>
+
+  <h6 class="text-lg font-medium text-center text-blue-900">
+    <strong>Gender:</strong>{{ customer.gender }}
+  </h6>
+  <h3 class="text-lg font-medium text-center text-blue-900">
+    <strong>Account Number:</strong> {{ customer.accountNumber }}
+  </h3>
+  <h3 class="text-lg font-medium text-center text-blue-900">
+    <strong>Phone Number:</strong> {{ customer.phone }}
+  </h3>
+  <h3 class="text-lg font-medium text-center text-blue-900">
+    <strong>Address: </strong> {{ customer.address }}
+  </h3>
+  <h3 class="text-lg font-medium text-center text-blue-900">
+    <strong>Type of the Account:</strong> {{ customer.accountType }}
+  </h3>
+
+  <p
+    class="text-lg font-medium text-center  rounded-md bg-slate-100 text-gray-900 my-6 mx-60 p-10"
+  >
+    {{ customer.extraDetails }}
+  </p>
+</div>

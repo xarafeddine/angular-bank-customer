@@ -1,0 +1,30 @@
+<div
+  class="col-span-1 flex flex-col text-center border shadow rounded-md p-4 h-full"
+>
+  <img
+    class="mx-auto h-32 w-32"
+    src="https://cdn.pixabay.com/photo/2016/03/31/20/37/client-1295901_960_720.png"
+  />
+  <h3 class="text-sm text-gray-900 mt-2">
+    {{ customer?.firstName }} {{ customer?.lastName }}
+  </h3>
+  <a class="mb-3 text-gray-400 underline" [routerLink]="['details', customer?.id]"
+  >See more details</a
+>
+  <h4 class="text-sm text-blue-500 mt-2">Email: {{ customer?.email }}</h4>
+  <h4 class="text-sm text-yellow-500 mt-2">Phone: {{ customer?.phone }}</h4>
+  <h4 class="text-sm text-orange-500 mt-2">Gender: {{ customer?.gender }}</h4>
+
+  <div class="flex gap-6 mx-auto">
+    <div class="text-green-600">Total Amount: ${{ customer?.amount || 0 }}</div>
+  </div>
+
+  
+  <button
+    class="mt-8 border rounded-md border-red-500 bg-red-100 text-red-500 disabled:opacity-50"
+    [disabled]="isDeleteLoading"
+    (click)="onDelete()"
+  >
+    {{ isDeleteLoading ? "Loading..." : "Delete" }}
+  </button>
+</div>

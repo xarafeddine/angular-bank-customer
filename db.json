@@ -1,0 +1,108 @@
+{
+  "customers": [
+    {
+      "firstName": "dayood",
+      "lastName": "kaol",
+      "accountNumber": "321 321654987654321 325",
+      "email": "nu01280@gmail.comk",
+      "phone": "0605798332",
+      "address": "agadir ait melloul morocco",
+      "gender": "male",
+      "accountType": "savings",
+      "extraDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur lobortis leo eu porttitor. Pellentesque mi arcu, fringilla in lectus at, porttitor elementum quam. Mauris varius tortor a odio auctor accumsan. Mauris eros enim, tempus id bibendum quis, pellentesque id leo. Aliquam sit amet arcu nisi. Mauris viverra, sem in vulputate dignissim, quam nisl iaculis erat, at faucibus risus nunc ut dolor. Sed eu libero vel velit hendrerit eleifend. Donec pellentesque quam ultrices augue finibus lobortis.",
+      "amount": "1234.43",
+      "id": 1
+    },
+    {
+      "firstName": "jokoi",
+      "lastName": "boko",
+      "email": "joko@boko.com",
+      "accountNumber": "321 321854986644321 345",
+      "phone": "0698432654",
+      "address": "agadir inezegan morocco",
+      "gender": "female",
+      "accountType": "checking",
+      "extraDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur lobortis leo eu porttitor. Pellentesque mi arcu, fringilla in lectus at, porttitor elementum quam. Mauris varius tortor a odio auctor accumsan. Mauris eros enim, tempus id bibendum quis, pellentesque id leo. Aliquam sit amet arcu nisi. Mauris viverra, sem in vulputate dignissim, quam nisl iaculis erat, at faucibus risus nunc ut dolor. Sed eu libero vel velit hendrerit eleifend. Donec pellentesque quam ultrices augue finibus lobortis.",
+      "amount": "1234.43",
+      "id": 2
+    },
+    {
+      "firstName": "mouto",
+      "lastName": "poli",
+      "accountNumber": "421 321652187654321 325",
+      "email": "loi@asdf.com",
+      "phone": "0465879887",
+      "address": "agadir ait melloul moroccoj",
+      "gender": "male",
+      "accountType": "checking",
+      "amount": "8234.43",
+      "extraDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur lobortis leo eu porttitor. Pellentesque mi arcu, fringilla in lectus at, porttitor elementum quam. Mauris varius tortor a odio auctor accumsan. Mauris eros enim, tempus id bibendum quis, pellentesque id leo. Aliquam sit amet arcu nisi. Mauris viverra, sem in vulputate dignissim, quam nisl iaculis erat, at faucibus risus nunc ut dolor. Sed eu libero vel velit hendrerit eleifend. Donec pellentesque quam ultrices augue finibus lobortis.",
+      "id": 3
+    },
+    {
+      "firstName": "agho",
+      "lastName": "lok",
+      "accountNumber": "321 321652187654321 325",
+      "email": "azxc@asdf.com",
+      "phone": "0465879887",
+      "address": "agadir ait melloul moroccoj",
+      "gender": "male",
+      "accountType": "checking",
+      "amount": "12933",
+      "extraDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur lobortis leo eu porttitor. Pellentesque mi arcu, fringilla in lectus at, porttitor elementum quam. Mauris varius tortor a odio auctor accumsan. Mauris eros enim, tempus id bibendum quis, pellentesque id leo. Aliquam sit amet arcu nisi. Mauris viverra, sem in vulputate dignissim, quam nisl iaculis erat, at faucibus risus nunc ut dolor. Sed eu libero vel velit hendrerit eleifend. Donec pellentesque quam ultrices augue finibus lobortis.",
+      "id": 8
+    },
+    {
+      "firstName": "pwowi",
+      "lastName": "qeqre",
+      "accountNumber": "8721 321652187654321 325",
+      "amount": "34.21",
+      "email": "asdfsf@asdf.com",
+      "phone": "0465879887",
+      "address": "agadir ait melloul moroccoj",
+      "gender": "male",
+      "accountType": "checking",
+      "extraDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur lobortis leo eu porttitor. Pellentesque mi arcu, fringilla in lectus at, porttitor elementum quam. Mauris varius tortor a odio auctor accumsan. Mauris eros enim, tempus id bibendum quis, pellentesque id leo. Aliquam sit amet arcu nisi. Mauris viverra, sem in vulputate dignissim, quam nisl iaculis erat, at faucibus risus nunc ut dolor. Sed eu libero vel velit hendrerit eleifend. Donec pellentesque quam ultrices augue finibus lobortis.",
+      "id": 6
+    },
+    {
+      "firstName": "lorem",
+      "lastName": "ayo",
+      "accountNumber": "871 321162187654321 375",
+      "amount": "234.43",
+      "email": "aesf@asdf.com",
+      "phone": "0465879887",
+      "address": "agadir ait melloul moroccoj",
+      "gender": "male",
+      "accountType": "checking",
+      "extraDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur lobortis leo eu porttitor. Pellentesque mi arcu, fringilla in lectus at, porttitor elementum quam. Mauris varius tortor a odio auctor accumsan. Mauris eros enim, tempus id bibendum quis, pellentesque id leo. Aliquam sit amet arcu nisi. Mauris viverra, sem in vulputate dignissim, quam nisl iaculis erat, at faucibus risus nunc ut dolor. Sed eu libero vel velit hendrerit eleifend. Donec pellentesque quam ultrices augue finibus lobortis.",
+      "id": 7
+    },
+    {
+      "firstName": "pyre",
+      "lastName": "joli",
+      "accountNumber": "621 321652187654321 325",
+      "amount": "234",
+      "email": "aesf@asdf.comhkj",
+      "phone": "0465879887",
+      "address": "agadir ait melloul moroccoj",
+      "gender": "male",
+      "accountType": "checking",
+      "extraDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur lobortis leo eu porttitor. Pellentesque mi arcu, fringilla in lectus at, porttitor elementum quam. Mauris varius tortor a odio auctor accumsan. Mauris eros enim, tempus id bibendum quis, pellentesque id leo. Aliquam sit amet arcu nisi. Mauris viverra, sem in vulputate dignissim, quam nisl iaculis erat, at faucibus risus nunc ut dolor. Sed eu libero vel velit hendrerit eleifend. Donec pellentesque quam ultrices augue finibus lobortis.",
+      "id": 4
+    },
+    {
+      "firstName": "kilowa",
+      "lastName": "wolkik",
+      "accountNumber": "321 32652187654321 325",
+      "amount": "34.4",
+      "email": "cvxb@asdf.io",
+      "phone": "0465879887",
+      "address": "agadir ait melloul moroccoj",
+      "gender": "male",
+      "accountType": "checking",
+      "extraDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur lobortis leo eu porttitor. Pellentesque mi arcu, fringilla in lectus at, porttitor elementum quam. Mauris varius tortor a odio auctor accumsan. Mauris eros enim, tempus id bibendum quis, pellentesque id leo. Aliquam sit amet arcu nisi. Mauris viverra, sem in vulputate dignissim, quam nisl iaculis erat, at faucibus risus nunc ut dolor. Sed eu libero vel velit hendrerit eleifend. Donec pellentesque quam ultrices augue finibus lobortis.",
+      "id": 5
+    }
+  ]
+}
